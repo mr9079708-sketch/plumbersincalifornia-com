@@ -28,3 +28,139 @@ input,select,textarea{font-size:16px}
 .request-card label,.contact-form label{gap:8px}
 .request-card button[type="submit"],.contact-form button[type="submit"]{width:100%;min-height:48px;justify-content:center}
 }
+
+/* ==========================================================================
+   ROUND 4 — Design polish (2026-11-17). Appended overrides only; the
+   template CSS above is untouched. Same teal/peach brand family, same
+   layout. What the round-4 review measured and fixed:
+   - Accent-orange text (#e07d4b) measured 2.4-2.7:1 on light backgrounds,
+     and white text on it ~2.9:1 on button hover — both below WCAG AA.
+     The orange is deepened (same warm family) so text and hover states pass.
+   - Muted grey (#6d7b79) measured 4.1-4.4:1 on white/cream — deepened so
+     body copy passes AA.
+   - White text/icons on the light peach accent measured ~1.9:1 — those
+     fills now use the deeper accent so glyphs and numerals stay legible.
+   - Category blue/orange icon fills were 2.8-2.9:1 for white icons —
+     deepened slightly (still bright, still distinct from teal).
+   - "Learn more" links were invisible (opacity:0) until hover — a dead
+     end on touch screens. They are always visible now.
+   - Comparison tables shipped with unbranded grey inline styling and no
+     table CSS at all — restyled to the brand, framed in a scroll card.
+   - No visible keyboard focus state anywhere — added.
+   - Accordion (320px) / process (140px) expand caps raised so longer
+     answers cannot clip.
+   - A-Z jump, service jump pills and footer social icons were under
+     44px tap targets on mobile.
+   Round-3 mobile rules (sticky call bar, 44px targets, 16px base font)
+   are NOT changed here — they still apply below. Nothing in this block
+   touches the reviews ("Customer Says") section's visibility.
+   ========================================================================== */
+
+/* --- Tokens: deeper orange + deeper muted grey (contrast, same family) --- */
+:root{
+  --accent-dark:#a34a1d;
+  --muted:#5d6d6a;
+  --cat-blue:#2b87bd;
+  --cat-orange:#d95f1e;
+}
+
+/* --- Base typography: explicit 16px everywhere, roomier line-height --- */
+html{font-size:16px}
+body{font-size:16px;line-height:1.65}
+h1,h2{text-wrap:balance}
+.section-heading p{font-size:16px}
+.svc-desc{font-size:14px}
+.request-card>p{font-size:14px}
+.form-note{font-size:12.5px}
+@media (min-width:768px){
+  /* Desktop only: round-3 keeps 16px inputs on mobile (stops iOS zoom). */
+  .request-card input,.request-card select,.contact-form input,.contact-form select,.contact-form textarea{font-size:14px}
+}
+
+/* --- Buttons & links: 48px minimum, underline affordance on text links --- */
+.button{min-height:48px}
+.text-link:hover,.text-link:focus-visible{text-decoration:underline;text-underline-offset:3px}
+
+/* --- Keyboard focus: visible everywhere (inputs get a soft ring instead) --- */
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--accent-dark);outline-offset:2px}
+.request-card input:focus,.request-card select:focus,.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus,#newsletter-form input:focus{border-color:var(--accent-dark);box-shadow:0 0 0 3px rgba(246,169,127,.35);outline:none}
+
+/* --- Cards: "Learn more" always visible (was opacity:0 until hover — dead
+   end on touch screens, where hover does not exist) --- */
+.svc-more{opacity:1;transform:none}
+.svc-card:hover .svc-more{transform:translateX(2px)}
+
+/* --- Hero: a little more room for the intro line --- */
+.hero-copy>p{max-width:480px}
+
+/* --- White text/icons on light-peach accent fills: use the deeper accent
+   (white on #f6a97f was ~1.9:1; on #a34a1d it is 5.9:1) --- */
+.brand-mark{background:var(--accent-dark)}
+.landmark-dot{background:var(--accent-dark)}
+.step-card:nth-child(odd) .step-num{background:var(--accent-dark)}
+.timeline .tl-num{background:var(--accent-dark)}
+.process-list article.active button span{background:var(--accent-dark)}
+.area-map-pin{background:var(--accent-dark)}
+.snapshot-pin{background:var(--accent-dark)}
+.nav-call .phone-icon{background:var(--accent-dark)}
+.circle-link{background:var(--accent-dark)}
+.newsletter-icon{background:var(--accent-dark)}
+.check-grid .ck{background:var(--accent-dark)}
+.sticky-call span{background:var(--accent-dark)}
+.svc-ic.ic-accent{background:var(--accent-dark)}
+.location-service-index a:nth-child(4n+1) .location-service-icon{background:var(--accent-dark)}
+.feature-cards .feature-card:nth-child(4n+1) .fc-ic{background:var(--accent-dark)}
+.footer-main .social-links a:hover{background:var(--accent-dark)}
+
+/* --- Small accent-coloured numerals/labels on white cards: deeper orange --- */
+.service-list a span{color:var(--accent-dark)}
+.location-service-index a>span{color:var(--accent-dark)}
+.link-card .lc-num{color:var(--accent-dark)}
+.benefit-number{color:var(--accent-dark)}
+.trust-grid span{color:var(--accent-dark)}
+.t9s-case-num{color:var(--accent-dark)}
+.quote-mark{color:var(--accent-dark)}
+.review-featured .quote-mark{color:var(--accent-soft)}
+
+/* --- Stars / rating numerals on light cards: deeper orange (featured dark
+   card keeps the light peach stars) --- */
+.review-grid .stars,.local-review-grid .stars,.rating-summary span,.local-review-heading>div:last-child span{color:var(--accent-dark)}
+.review-featured .stars{color:var(--accent)}
+
+/* --- Small text that was below AA on its background --- */
+.newsletter-inner small{color:#5a2c12}
+.brand-light small{color:rgba(255,255,255,.65)}
+.price-featured h3 small{color:#6b3417}
+.local-price-featured h3 small{color:rgba(255,255,255,.65)}
+.location-contact-card small{color:rgba(255,255,255,.7)}
+
+/* --- Footer: links and legal line a touch brighter for readability --- */
+.footer-main>div:not(.footer-brand) a{color:rgba(255,255,255,.72)}
+.footer-main p{color:rgba(255,255,255,.72)}
+.footer-bottom{color:rgba(255,255,255,.6)}
+.footer-bottom a{color:rgba(255,255,255,.6)}
+
+/* --- Tables (round-2 comparison / cost tables): brand styling that
+   overrides the grey inline styles, framed in a scroll card --- */
+.table-scroll{border:1px solid var(--line);border-radius:var(--r-sm);background:#fff;box-shadow:var(--shadow-sm)}
+.table-scroll th{background:var(--teal-900)!important;color:#fff!important;border:1px solid var(--teal-800)!important;font-size:13px;letter-spacing:.02em;text-align:left}
+.table-scroll td{border:1px solid var(--line)!important;color:var(--ink-soft);font-size:14px;vertical-align:top}
+.table-scroll tbody tr:nth-child(even) td{background:var(--cream)}
+.table-scroll td strong{color:var(--teal-900)}
+
+/* --- Expand caps: longer FAQ answers / process descriptions cannot clip --- */
+.accordion article.open .accordion-panel{max-height:480px}
+.process-list article.active p{max-height:220px}
+
+/* --- Reduced motion: no smooth scrolling --- */
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* --- Mobile (round-3 rules above still apply): 44px tap targets for the
+   A-Z jump, service jump pills and footer social icons; wide (3+ column)
+   tables keep a readable min-width and scroll instead of squeezing --- */
+@media (max-width:767px){
+  .t9s-dir-jump a{min-width:44px;height:44px}
+  .t9s-svc-jump a{padding:12px 20px}
+  .footer-main .social-links a{width:44px;height:44px}
+  .table-scroll:has(thead tr th:nth-child(3)) table{min-width:560px}
+}
