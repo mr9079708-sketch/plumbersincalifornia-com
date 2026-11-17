@@ -207,6 +207,33 @@ function initNewsletter() {
   });
 }
 
+/* ROUND 3 — Mobile sticky "Call now" bar. Created in JS so it applies to
+   every page without touching HTML; styled in global.css (.mobile-call-bar)
+   and shown only below 768px. Hidden while the mobile nav drawer is open
+   (body.menu-open) via CSS. */
+function initMobileCallBar() {
+  if (document.querySelector(".mobile-call-bar")) return;
+  var bar = document.createElement("a");
+  bar.className = "mobile-call-bar";
+  bar.href = "tel:+16196129370";
+  bar.setAttribute("aria-label", "Call now: +1 (619) 612-9370");
+  bar.innerHTML = "&#9742; Call now <span class=\"mobile-call-bar__number\">+1 (619) 612-9370</span>";
+  document.body.appendChild(bar);
+}
+
+/* ROUND 3 — Wrap plain <table> elements (round-2 comparison tables) in a
+   horizontally scrollable container so they never stretch the page on
+   small screens. Table content is untouched. */
+function initTableScroll() {
+  document.querySelectorAll("table").forEach(function (table) {
+    if (table.parentElement && table.parentElement.classList.contains("table-scroll")) return;
+    var wrap = document.createElement("div");
+    wrap.className = "table-scroll";
+    table.parentNode.insertBefore(wrap, table);
+    wrap.appendChild(table);
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   initNavbar();
   initAccordions();
@@ -214,4 +241,6 @@ document.addEventListener("DOMContentLoaded", () => {
   initNewsletter();
   initLeadForms();
   initReveal();
+  initMobileCallBar();
+  initTableScroll();
 });
