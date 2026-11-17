@@ -1,0 +1,961 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/blog.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/commercial-plumbing.html",
+      "destination": "/commercial-plumbing",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/drain-cleaning.html",
+      "destination": "/drain-cleaning",
+      "permanent": true
+    },
+    {
+      "source": "/emergency-plumbing-services.html",
+      "destination": "/emergency-plumbing-services",
+      "permanent": true
+    },
+    {
+      "source": "/kitchen-plumbing.html",
+      "destination": "/kitchen-plumbing",
+      "permanent": true
+    },
+    {
+      "source": "/leak-detection-repair.html",
+      "destination": "/leak-detection-repair",
+      "permanent": true
+    },
+    {
+      "source": "/locations.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-anaheim.html",
+      "destination": "/plumber-in-california-anaheim",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-angels-camp.html",
+      "destination": "/plumber-in-california-angels-camp",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-antioch.html",
+      "destination": "/plumber-in-california-antioch",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-arroyo-grande.html",
+      "destination": "/plumber-in-california-arroyo-grande",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-atwater.html",
+      "destination": "/plumber-in-california-atwater",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-azusa.html",
+      "destination": "/plumber-in-california-azusa",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-bakersfield.html",
+      "destination": "/plumber-in-california-bakersfield",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-bayside.html",
+      "destination": "/plumber-in-california-bayside",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-bell-gardens.html",
+      "destination": "/plumber-in-california-bell-gardens",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-bellflower.html",
+      "destination": "/plumber-in-california-bellflower",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-benicia.html",
+      "destination": "/plumber-in-california-benicia",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-berkeley.html",
+      "destination": "/plumber-in-california-berkeley",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-bishop.html",
+      "destination": "/plumber-in-california-bishop",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-brawley.html",
+      "destination": "/plumber-in-california-brawley",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-brea.html",
+      "destination": "/plumber-in-california-brea",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-burbank.html",
+      "destination": "/plumber-in-california-burbank",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-burlingame.html",
+      "destination": "/plumber-in-california-burlingame",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-calexico.html",
+      "destination": "/plumber-in-california-calexico",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-camarillo.html",
+      "destination": "/plumber-in-california-camarillo",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-carlsbad.html",
+      "destination": "/plumber-in-california-carlsbad",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-castro-valley.html",
+      "destination": "/plumber-in-california-castro-valley",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-ceres.html",
+      "destination": "/plumber-in-california-ceres",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-cerritos.html",
+      "destination": "/plumber-in-california-cerritos",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-chico.html",
+      "destination": "/plumber-in-california-chico",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-chowchilla.html",
+      "destination": "/plumber-in-california-chowchilla",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-chula-vista.html",
+      "destination": "/plumber-in-california-chula-vista",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-citrus-heights.html",
+      "destination": "/plumber-in-california-citrus-heights",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-clearlake.html",
+      "destination": "/plumber-in-california-clearlake",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-clovis.html",
+      "destination": "/plumber-in-california-clovis",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-coalinga.html",
+      "destination": "/plumber-in-california-coalinga",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-colton.html",
+      "destination": "/plumber-in-california-colton",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-concord.html",
+      "destination": "/plumber-in-california-concord",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-corcoran.html",
+      "destination": "/plumber-in-california-corcoran",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-corona.html",
+      "destination": "/plumber-in-california-corona",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-costa-mesa.html",
+      "destination": "/plumber-in-california-costa-mesa",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-cotati.html",
+      "destination": "/plumber-in-california-cotati",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-crescent-city.html",
+      "destination": "/plumber-in-california-crescent-city",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-culver-city.html",
+      "destination": "/plumber-in-california-culver-city",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-cupertino.html",
+      "destination": "/plumber-in-california-cupertino",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-cypress.html",
+      "destination": "/plumber-in-california-cypress",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-daly-city.html",
+      "destination": "/plumber-in-california-daly-city",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-dixon.html",
+      "destination": "/plumber-in-california-dixon",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-downey.html",
+      "destination": "/plumber-in-california-downey",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-dunsmuir.html",
+      "destination": "/plumber-in-california-dunsmuir",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-el-dorado-hills.html",
+      "destination": "/plumber-in-california-el-dorado-hills",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-el-monte.html",
+      "destination": "/plumber-in-california-el-monte",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-elk-grove.html",
+      "destination": "/plumber-in-california-elk-grove",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-encinitas.html",
+      "destination": "/plumber-in-california-encinitas",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-escondido.html",
+      "destination": "/plumber-in-california-escondido",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-fairfield.html",
+      "destination": "/plumber-in-california-fairfield",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-folsom.html",
+      "destination": "/plumber-in-california-folsom",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-fontana.html",
+      "destination": "/plumber-in-california-fontana",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-fort-bragg.html",
+      "destination": "/plumber-in-california-fort-bragg",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-fremont.html",
+      "destination": "/plumber-in-california-fremont",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-fresno.html",
+      "destination": "/plumber-in-california-fresno",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-fullerton.html",
+      "destination": "/plumber-in-california-fullerton",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-galt.html",
+      "destination": "/plumber-in-california-galt",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-garden-grove.html",
+      "destination": "/plumber-in-california-garden-grove",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-garden-valley.html",
+      "destination": "/plumber-in-california-garden-valley",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-glendale.html",
+      "destination": "/plumber-in-california-glendale",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-grover-beach.html",
+      "destination": "/plumber-in-california-grover-beach",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-hawthorne.html",
+      "destination": "/plumber-in-california-hawthorne",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-hayward.html",
+      "destination": "/plumber-in-california-hayward",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-hughson.html",
+      "destination": "/plumber-in-california-hughson",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-huntington-beach.html",
+      "destination": "/plumber-in-california-huntington-beach",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-huntington-park.html",
+      "destination": "/plumber-in-california-huntington-park",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-imperial-beach.html",
+      "destination": "/plumber-in-california-imperial-beach",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-inglewood.html",
+      "destination": "/plumber-in-california-inglewood",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-irvine.html",
+      "destination": "/plumber-in-california-irvine",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-kelseyville.html",
+      "destination": "/plumber-in-california-kelseyville",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-kerman.html",
+      "destination": "/plumber-in-california-kerman",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-king-city.html",
+      "destination": "/plumber-in-california-king-city",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-kingsburg.html",
+      "destination": "/plumber-in-california-kingsburg",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-la-habra.html",
+      "destination": "/plumber-in-california-la-habra",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-la-mesa.html",
+      "destination": "/plumber-in-california-la-mesa",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-laguna-niguel.html",
+      "destination": "/plumber-in-california-laguna-niguel",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-lake-elsinore.html",
+      "destination": "/plumber-in-california-lake-elsinore",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-lakeport.html",
+      "destination": "/plumber-in-california-lakeport",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-lakewood.html",
+      "destination": "/plumber-in-california-lakewood",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-lancaster.html",
+      "destination": "/plumber-in-california-lancaster",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-lathrop.html",
+      "destination": "/plumber-in-california-lathrop",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-lemon-grove.html",
+      "destination": "/plumber-in-california-lemon-grove",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-lindsay.html",
+      "destination": "/plumber-in-california-lindsay",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-livermore.html",
+      "destination": "/plumber-in-california-livermore",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-lodi.html",
+      "destination": "/plumber-in-california-lodi",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-long-beach.html",
+      "destination": "/plumber-in-california-long-beach",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-los-angeles.html",
+      "destination": "/plumber-in-california-los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-lynwood.html",
+      "destination": "/plumber-in-california-lynwood",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-madera.html",
+      "destination": "/plumber-in-california-madera",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-manteca.html",
+      "destination": "/plumber-in-california-manteca",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-merced.html",
+      "destination": "/plumber-in-california-merced",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-milpitas.html",
+      "destination": "/plumber-in-california-milpitas",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-modesto.html",
+      "destination": "/plumber-in-california-modesto",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-montague.html",
+      "destination": "/plumber-in-california-montague",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-monterey.html",
+      "destination": "/plumber-in-california-monterey",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-moorpark.html",
+      "destination": "/plumber-in-california-moorpark",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-moraga.html",
+      "destination": "/plumber-in-california-moraga",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-moreno-valley.html",
+      "destination": "/plumber-in-california-moreno-valley",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-mountain-view.html",
+      "destination": "/plumber-in-california-mountain-view",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-murrieta.html",
+      "destination": "/plumber-in-california-murrieta",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-napa.html",
+      "destination": "/plumber-in-california-napa",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-needles.html",
+      "destination": "/plumber-in-california-needles",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-nevada-city.html",
+      "destination": "/plumber-in-california-nevada-city",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-novato.html",
+      "destination": "/plumber-in-california-novato",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-oakland.html",
+      "destination": "/plumber-in-california-oakland",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-oceanside.html",
+      "destination": "/plumber-in-california-oceanside",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-ontario.html",
+      "destination": "/plumber-in-california-ontario",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-orange.html",
+      "destination": "/plumber-in-california-orange",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-oxnard.html",
+      "destination": "/plumber-in-california-oxnard",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-palm-desert.html",
+      "destination": "/plumber-in-california-palm-desert",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-palm-springs.html",
+      "destination": "/plumber-in-california-palm-springs",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-palmdale.html",
+      "destination": "/plumber-in-california-palmdale",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-palo-alto.html",
+      "destination": "/plumber-in-california-palo-alto",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-pasadena.html",
+      "destination": "/plumber-in-california-pasadena",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-perris.html",
+      "destination": "/plumber-in-california-perris",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-pismo-beach.html",
+      "destination": "/plumber-in-california-pismo-beach",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-pittsburg.html",
+      "destination": "/plumber-in-california-pittsburg",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-pomona.html",
+      "destination": "/plumber-in-california-pomona",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-porterville.html",
+      "destination": "/plumber-in-california-porterville",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-rancho-cucamonga.html",
+      "destination": "/plumber-in-california-rancho-cucamonga",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-redlands.html",
+      "destination": "/plumber-in-california-redlands",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-redwood-city.html",
+      "destination": "/plumber-in-california-redwood-city",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-rialto.html",
+      "destination": "/plumber-in-california-rialto",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-richmond.html",
+      "destination": "/plumber-in-california-richmond",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-ridgecrest.html",
+      "destination": "/plumber-in-california-ridgecrest",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-rio-dell.html",
+      "destination": "/plumber-in-california-rio-dell",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-rio-vista.html",
+      "destination": "/plumber-in-california-rio-vista",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-riverside.html",
+      "destination": "/plumber-in-california-riverside",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-rohnert-park.html",
+      "destination": "/plumber-in-california-rohnert-park",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-sacramento.html",
+      "destination": "/plumber-in-california-sacramento",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-salinas.html",
+      "destination": "/plumber-in-california-salinas",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-san-bernardino.html",
+      "destination": "/plumber-in-california-san-bernardino",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-san-diego.html",
+      "destination": "/plumber-in-california-san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-san-francisco.html",
+      "destination": "/plumber-in-california-san-francisco",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-san-gabriel.html",
+      "destination": "/plumber-in-california-san-gabriel",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-san-jose.html",
+      "destination": "/plumber-in-california-san-jose",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-san-marcos.html",
+      "destination": "/plumber-in-california-san-marcos",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-san-mateo.html",
+      "destination": "/plumber-in-california-san-mateo",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-sanger.html",
+      "destination": "/plumber-in-california-sanger",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-santa-ana.html",
+      "destination": "/plumber-in-california-santa-ana",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-santa-clara.html",
+      "destination": "/plumber-in-california-santa-clara",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-santa-clarita.html",
+      "destination": "/plumber-in-california-santa-clarita",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-santa-monica.html",
+      "destination": "/plumber-in-california-santa-monica",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-santa-rosa.html",
+      "destination": "/plumber-in-california-santa-rosa",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-santee.html",
+      "destination": "/plumber-in-california-santee",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-saratoga.html",
+      "destination": "/plumber-in-california-saratoga",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-seaside.html",
+      "destination": "/plumber-in-california-seaside",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-sierra-madre.html",
+      "destination": "/plumber-in-california-sierra-madre",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-signal-hill.html",
+      "destination": "/plumber-in-california-signal-hill",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-simi-valley.html",
+      "destination": "/plumber-in-california-simi-valley",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-sonoma.html",
+      "destination": "/plumber-in-california-sonoma",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-south-gate.html",
+      "destination": "/plumber-in-california-south-gate",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-south-pasadena.html",
+      "destination": "/plumber-in-california-south-pasadena",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-sparks.html",
+      "destination": "/plumber-in-california-sparks",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-stockton.html",
+      "destination": "/plumber-in-california-stockton",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-suisun-city.html",
+      "destination": "/plumber-in-california-suisun-city",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-sunnyvale.html",
+      "destination": "/plumber-in-california-sunnyvale",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-temecula.html",
+      "destination": "/plumber-in-california-temecula",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-thousand-oaks.html",
+      "destination": "/plumber-in-california-thousand-oaks",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-torrance.html",
+      "destination": "/plumber-in-california-torrance",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-tulare.html",
+      "destination": "/plumber-in-california-tulare",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-turlock.html",
+      "destination": "/plumber-in-california-turlock",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-tustin.html",
+      "destination": "/plumber-in-california-tustin",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-vallejo.html",
+      "destination": "/plumber-in-california-vallejo",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-ventura.html",
+      "destination": "/plumber-in-california-ventura",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-victorville.html",
+      "destination": "/plumber-in-california-victorville",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-visalia.html",
+      "destination": "/plumber-in-california-visalia",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-walnut-creek.html",
+      "destination": "/plumber-in-california-walnut-creek",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-watsonville.html",
+      "destination": "/plumber-in-california-watsonville",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-west-covina.html",
+      "destination": "/plumber-in-california-west-covina",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-willows.html",
+      "destination": "/plumber-in-california-willows",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-woodland.html",
+      "destination": "/plumber-in-california-woodland",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-yountville.html",
+      "destination": "/plumber-in-california-yountville",
+      "permanent": true
+    },
+    {
+      "source": "/plumber-in-california-yuba-city.html",
+      "destination": "/plumber-in-california-yuba-city",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/residential-plumbing.html",
+      "destination": "/residential-plumbing",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/sewer-line-repair.html",
+      "destination": "/sewer-line-repair",
+      "permanent": true
+    },
+    {
+      "source": "/sump-pump-pipe-leak-repair.html",
+      "destination": "/sump-pump-pipe-leak-repair",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair-installation.html",
+      "destination": "/toilet-repair-installation",
+      "permanent": true
+    },
+    {
+      "source": "/water-heater-repair-installation.html",
+      "destination": "/water-heater-repair-installation",
+      "permanent": true
+    }
+  ]
+}
