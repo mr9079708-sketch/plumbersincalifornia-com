@@ -164,3 +164,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   .footer-main .social-links a{width:44px;height:44px}
   .table-scroll:has(thead tr th:nth-child(3)) table{min-width:560px}
 }
+
+/* --- Form placeholder contrast: default pale-grey placeholders were hard to read --- */
+input::placeholder, textarea::placeholder{color:#5d6d6a;opacity:1}
