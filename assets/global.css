@@ -167,3 +167,22 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 
 /* --- Form placeholder contrast: default pale-grey placeholders were hard to read --- */
 input::placeholder, textarea::placeholder{color:#5d6d6a;opacity:1}
+
+/* Round 8 (2026-11-18): heading levels fixed on city pages — case-card,
+   compliance-column and sub-card labels promoted h4 -> h3 (no skipped
+   levels). Styles mirror the previous h4 rules exactly. */
+.t9s-case-card h3{font-size:0.68rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.t9s-case-result h3{color:var(--accent-dark)}
+.t9s-comp-col h3{font-size:0.66rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--accent-bright);margin-bottom:18px}
+.t9s-sub-card h3{font-size:0.98rem;color:var(--teal-900);margin-bottom:6px}
+
+/* ROUND 8 — FAQ groups split through the content flow (2026-11-18). */
+.faq-group{margin-top:48px}
+.faq-group>h3{font-size:1.3rem;color:var(--teal-900);margin:0 0 18px}
+@media (max-width:767px){.faq-group{margin-top:36px}}
+
+/* --- Round 8 LCP: hero content must never start invisible ---
+   [data-sal] sets opacity:0 until main.js runs + a 650ms fade. The H1 sits
+   inside .hero-copy[data-sal] on 192 pages, so LCP waited ~1-2s for the
+   fade. Above-the-fold hero content renders immediately now. */
+.hero [data-sal]{opacity:1 !important;transform:none !important;transition:none !important}

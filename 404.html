@@ -18,14 +18,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" media="all" onload="this.media='all'">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap"></noscript>
     <link rel="stylesheet" href="assets/global.css">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" /><style>[data-sal]{opacity:1 !important;transform:none !important;}</style></noscript>
+    <noscript><style>[data-sal]{opacity:1 !important;transform:none !important;}</style></noscript>
     <style>
       .notfound{text-align:center;max-width:560px;margin:0 auto;padding:90px 20px 100px}
       .notfound .brand{font-size:.95rem;color:var(--muted);margin:0 0 .5rem;text-transform:uppercase;letter-spacing:.08em}
       .notfound .code{font-size:6rem;font-weight:800;line-height:1;margin:0;color:var(--accent-dark)}
       .notfound h1{font-size:1.6rem;margin:1rem 0 .75rem;color:var(--ink)}
+      .notfound h2{font-size:1.15rem;margin:0 0 1rem;color:var(--ink)}
       .notfound p{font-size:1.05rem;line-height:1.7;color:var(--muted);margin:0 0 1.5rem}
       .notfound .actions{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap}
       .notfound .btn{display:inline-block;padding:.85rem 1.6rem;border-radius:.5rem;font-weight:600;text-decoration:none;transition:opacity .15s}
@@ -140,6 +142,7 @@
         <p class="code">404</p>
         <h1>Page not found</h1>
         <p>The page you&rsquo;re looking for doesn&rsquo;t exist or has moved. Let&rsquo;s get you back on track.</p>
+        <h2>What you can do next</h2>
         <div class="actions">
           <a class="btn primary" href="/">Back to homepage</a>
           <a class="btn ghost" href="tel:+16196129370">Call +1 (619) 612-9370</a>
@@ -186,6 +189,7 @@
 </div>
 <div id="sticky-call-button-container">
   <a class="sticky-call" href="tel:+16196129370" aria-label="Call us +1 (619) 612-9370"><span><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"></path></svg></span><div><small>Tap to call</small><strong>+1 (619) 612-9370</strong></div></a>
+  <a class="mobile-call-bar" href="tel:+16196129370">Call now <span class="mobile-call-bar__number">+1 (619) 612-9370</span></a>
 </div>
     <script src="assets/js/main.js"></script>
   </body>
